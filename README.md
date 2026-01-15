@@ -1,4 +1,7 @@
 # movie_sentiment_analysis
 영화 리뷰 감성 분석
 
+# URL
+https://moviesentimentanalysis-dbkhnmsbhzjcvjx4r8zcxv.streamlit.app
+---
 [보고서.pdf](https://github.com/user-attachments/files/24610367/default.pdf)
