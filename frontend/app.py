@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import date
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = st.secrets["API_BASE"]
 
 st.set_page_config(page_title="🎬 영화 리뷰 사이트", layout="centered")
 st.title("🎬 영화 리뷰 사이트")
