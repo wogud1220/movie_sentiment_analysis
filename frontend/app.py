@@ -114,8 +114,8 @@ elif page == "영화 검색":
 
     st.markdown(f"## 🎬 {movie['title']}")
 
-    if movie["posterURL"]:
-        st.image(movie["posterURL"], width = 300)
+    if movie["poster_url"]:
+        st.image(movie["poster_url"], width = 300)
     else:
         st.info("포스터 이미지가 없습니다.")
 
